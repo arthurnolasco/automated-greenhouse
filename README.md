@@ -2,8 +2,6 @@
 
 Temperature controller for a small greenhouse, running on an ESP32. It reads the temperature with a DHT22, shows it on a 2.8" TFT display with a three-button menu where you set the target temperature, and drives a stepper motor as the actuator, with an LED that lights up while the motor is on.
 
-I built it in January 2025 as the electronics case of the CPE Jr. trainee program, written in C++ with PlatformIO and the Arduino framework.
-
 ## How it works
 
 The display has three screens:
